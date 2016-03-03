@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8262451C86BC9B001A230D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8262441C86BC9B001A230D /* main.m */; };
+		BC8262481C86BC9B001A230D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8262471C86BC9B001A230D /* AppDelegate.m */; };
+		BC82624B1C86BC9B001A230D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82624A1C86BC9B001A230D /* ViewController.m */; };
+		BC82624E1C86BC9B001A230D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC82624C1C86BC9B001A230D /* Main.storyboard */; };
+		BC8262501C86BC9B001A230D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC82624F1C86BC9B001A230D /* Assets.xcassets */; };
+		BC8262531C86BC9B001A230D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8262511C86BC9B001A230D /* LaunchScreen.storyboard */; };
+		BC82625E1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82625D1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.m */; };
+		BC8262691C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8262681C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.m */; };
+		BC82627A1C86BF95001A230D /* YLGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8262791C86BF95001A230D /* YLGoods.m */; };
+		BC82627D1C86C557001A230D /* YLPercentDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82627C1C86C557001A230D /* YLPercentDiscount.m */; };
+		BC8262801C86C5A8001A230D /* YLFullReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82627F1C86C5A8001A230D /* YLFullReduce.m */; };
+		BC8262831C86C60B001A230D /* YLNoDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8262821C86C60B001A230D /* YLNoDiscount.m */; };
+		BC8262851C86CF14001A230D /* YLManageSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8262841C86CF14001A230D /* YLManageSystem.m */; };
+		BC8262911C87E8E5001A230D /* YLShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82628F1C87E8E5001A230D /* YLShowViewController.m */; };
+		BC8262921C87E8E5001A230D /* YLShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8262901C87E8E5001A230D /* YLShowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC82625A1C86BC9B001A230D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8262381C86BC9B001A230D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC82623F1C86BC9B001A230D;
+			remoteInfo = YLGoodsAutoDiscountSystem;
+		};
+		BC8262651C86BC9B001A230D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8262381C86BC9B001A230D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC82623F1C86BC9B001A230D;
+			remoteInfo = YLGoodsAutoDiscountSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC8262401C86BC9B001A230D /* YLGoodsAutoDiscountSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLGoodsAutoDiscountSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8262441C86BC9B001A230D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8262461C86BC9B001A230D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC8262471C86BC9B001A230D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC8262491C86BC9B001A230D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC82624A1C86BC9B001A230D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC82624D1C86BC9B001A230D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC82624F1C86BC9B001A230D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC8262521C86BC9B001A230D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC8262541C86BC9B001A230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8262591C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLGoodsAutoDiscountSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC82625D1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLGoodsAutoDiscountSystemTests.m; sourceTree = "<group>"; };
+		BC82625F1C86BC9B001A230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8262641C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLGoodsAutoDiscountSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8262681C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLGoodsAutoDiscountSystemUITests.m; sourceTree = "<group>"; };
+		BC82626A1C86BC9B001A230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8262781C86BF95001A230D /* YLGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLGoods.h; sourceTree = "<group>"; };
+		BC8262791C86BF95001A230D /* YLGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGoods.m; sourceTree = "<group>"; };
+		BC82627B1C86C557001A230D /* YLPercentDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPercentDiscount.h; sourceTree = "<group>"; };
+		BC82627C1C86C557001A230D /* YLPercentDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPercentDiscount.m; sourceTree = "<group>"; };
+		BC82627E1C86C5A8001A230D /* YLFullReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFullReduce.h; sourceTree = "<group>"; };
+		BC82627F1C86C5A8001A230D /* YLFullReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFullReduce.m; sourceTree = "<group>"; };
+		BC8262811C86C60B001A230D /* YLNoDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLNoDiscount.h; sourceTree = "<group>"; };
+		BC8262821C86C60B001A230D /* YLNoDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLNoDiscount.m; sourceTree = "<group>"; };
+		BC8262841C86CF14001A230D /* YLManageSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLManageSystem.m; sourceTree = "<group>"; };
+		BC8262861C86CF1D001A230D /* YLManageSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLManageSystem.h; sourceTree = "<group>"; };
+		BC82628D1C87DB82001A230D /* YLDiscountProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDiscountProtocol.h; sourceTree = "<group>"; };
+		BC82628E1C87E8E5001A230D /* YLShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLShowViewController.h; sourceTree = "<group>"; };
+		BC82628F1C87E8E5001A230D /* YLShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLShowViewController.m; sourceTree = "<group>"; };
+		BC8262901C87E8E5001A230D /* YLShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLShowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC82623D1C86BC9B001A230D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8262561C86BC9B001A230D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8262611C86BC9B001A230D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8262371C86BC9B001A230D = {
+			isa = PBXGroup;
+			children = (
+				BC8262421C86BC9B001A230D /* YLGoodsAutoDiscountSystem */,
+				BC82625C1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests */,
+				BC8262671C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests */,
+				BC8262411C86BC9B001A230D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8262411C86BC9B001A230D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8262401C86BC9B001A230D /* YLGoodsAutoDiscountSystem.app */,
+				BC8262591C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.xctest */,
+				BC8262641C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8262421C86BC9B001A230D /* YLGoodsAutoDiscountSystem */ = {
+			isa = PBXGroup;
+			children = (
+				BC8262931C884CE7001A230D /* controller */,
+				BC82628A1C8704CF001A230D /* protocol */,
+				BC8262771C86BF7B001A230D /* model */,
+				BC8262461C86BC9B001A230D /* AppDelegate.h */,
+				BC8262471C86BC9B001A230D /* AppDelegate.m */,
+				BC82628E1C87E8E5001A230D /* YLShowViewController.h */,
+				BC82628F1C87E8E5001A230D /* YLShowViewController.m */,
+				BC8262901C87E8E5001A230D /* YLShowViewController.xib */,
+				BC82624C1C86BC9B001A230D /* Main.storyboard */,
+				BC82624F1C86BC9B001A230D /* Assets.xcassets */,
+				BC8262511C86BC9B001A230D /* LaunchScreen.storyboard */,
+				BC8262541C86BC9B001A230D /* Info.plist */,
+				BC8262431C86BC9B001A230D /* Supporting Files */,
+			);
+			path = YLGoodsAutoDiscountSystem;
+			sourceTree = "<group>";
+		};
+		BC8262431C86BC9B001A230D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8262441C86BC9B001A230D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC82625C1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC82625D1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.m */,
+				BC82625F1C86BC9B001A230D /* Info.plist */,
+			);
+			path = YLGoodsAutoDiscountSystemTests;
+			sourceTree = "<group>";
+		};
+		BC8262671C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8262681C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.m */,
+				BC82626A1C86BC9B001A230D /* Info.plist */,
+			);
+			path = YLGoodsAutoDiscountSystemUITests;
+			sourceTree = "<group>";
+		};
+		BC8262771C86BF7B001A230D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BC8262781C86BF95001A230D /* YLGoods.h */,
+				BC8262791C86BF95001A230D /* YLGoods.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BC82628A1C8704CF001A230D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC82628D1C87DB82001A230D /* YLDiscountProtocol.h */,
+				BC8262811C86C60B001A230D /* YLNoDiscount.h */,
+				BC8262821C86C60B001A230D /* YLNoDiscount.m */,
+				BC82627E1C86C5A8001A230D /* YLFullReduce.h */,
+				BC82627F1C86C5A8001A230D /* YLFullReduce.m */,
+				BC82627B1C86C557001A230D /* YLPercentDiscount.h */,
+				BC82627C1C86C557001A230D /* YLPercentDiscount.m */,
+			);
+			name = protocol;
+			sourceTree = "<group>";
+		};
+		BC8262931C884CE7001A230D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC8262861C86CF1D001A230D /* YLManageSystem.h */,
+				BC8262841C86CF14001A230D /* YLManageSystem.m */,
+				BC8262491C86BC9B001A230D /* ViewController.h */,
+				BC82624A1C86BC9B001A230D /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC82623F1C86BC9B001A230D /* YLGoodsAutoDiscountSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC82626D1C86BC9B001A230D /* Build configuration list for PBXNativeTarget "YLGoodsAutoDiscountSystem" */;
+			buildPhases = (
+				BC82623C1C86BC9B001A230D /* Sources */,
+				BC82623D1C86BC9B001A230D /* Frameworks */,
+				BC82623E1C86BC9B001A230D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLGoodsAutoDiscountSystem;
+			productName = YLGoodsAutoDiscountSystem;
+			productReference = BC8262401C86BC9B001A230D /* YLGoodsAutoDiscountSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8262581C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8262701C86BC9B001A230D /* Build configuration list for PBXNativeTarget "YLGoodsAutoDiscountSystemTests" */;
+			buildPhases = (
+				BC8262551C86BC9B001A230D /* Sources */,
+				BC8262561C86BC9B001A230D /* Frameworks */,
+				BC8262571C86BC9B001A230D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC82625B1C86BC9B001A230D /* PBXTargetDependency */,
+			);
+			name = YLGoodsAutoDiscountSystemTests;
+			productName = YLGoodsAutoDiscountSystemTests;
+			productReference = BC8262591C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC8262631C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8262731C86BC9B001A230D /* Build configuration list for PBXNativeTarget "YLGoodsAutoDiscountSystemUITests" */;
+			buildPhases = (
+				BC8262601C86BC9B001A230D /* Sources */,
+				BC8262611C86BC9B001A230D /* Frameworks */,
+				BC8262621C86BC9B001A230D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8262661C86BC9B001A230D /* PBXTargetDependency */,
+			);
+			name = YLGoodsAutoDiscountSystemUITests;
+			productName = YLGoodsAutoDiscountSystemUITests;
+			productReference = BC8262641C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8262381C86BC9B001A230D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YL;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hoggenw;
+				TargetAttributes = {
+					BC82623F1C86BC9B001A230D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC8262581C86BC9B001A230D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC82623F1C86BC9B001A230D;
+					};
+					BC8262631C86BC9B001A230D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC82623F1C86BC9B001A230D;
+					};
+				};
+			};
+			buildConfigurationList = BC82623B1C86BC9B001A230D /* Build configuration list for PBXProject "YLGoodsAutoDiscountSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC8262371C86BC9B001A230D;
+			productRefGroup = BC8262411C86BC9B001A230D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC82623F1C86BC9B001A230D /* YLGoodsAutoDiscountSystem */,
+				BC8262581C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests */,
+				BC8262631C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC82623E1C86BC9B001A230D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8262531C86BC9B001A230D /* LaunchScreen.storyboard in Resources */,
+				BC8262501C86BC9B001A230D /* Assets.xcassets in Resources */,
+				BC8262921C87E8E5001A230D /* YLShowViewController.xib in Resources */,
+				BC82624E1C86BC9B001A230D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8262571C86BC9B001A230D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8262621C86BC9B001A230D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC82623C1C86BC9B001A230D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC82627D1C86C557001A230D /* YLPercentDiscount.m in Sources */,
+				BC8262831C86C60B001A230D /* YLNoDiscount.m in Sources */,
+				BC8262801C86C5A8001A230D /* YLFullReduce.m in Sources */,
+				BC82624B1C86BC9B001A230D /* ViewController.m in Sources */,
+				BC8262911C87E8E5001A230D /* YLShowViewController.m in Sources */,
+				BC82627A1C86BF95001A230D /* YLGoods.m in Sources */,
+				BC8262481C86BC9B001A230D /* AppDelegate.m in Sources */,
+				BC8262851C86CF14001A230D /* YLManageSystem.m in Sources */,
+				BC8262451C86BC9B001A230D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8262551C86BC9B001A230D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC82625E1C86BC9B001A230D /* YLGoodsAutoDiscountSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8262601C86BC9B001A230D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8262691C86BC9B001A230D /* YLGoodsAutoDiscountSystemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC82625B1C86BC9B001A230D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC82623F1C86BC9B001A230D /* YLGoodsAutoDiscountSystem */;
+			targetProxy = BC82625A1C86BC9B001A230D /* PBXContainerItemProxy */;
+		};
+		BC8262661C86BC9B001A230D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC82623F1C86BC9B001A230D /* YLGoodsAutoDiscountSystem */;
+			targetProxy = BC8262651C86BC9B001A230D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC82624C1C86BC9B001A230D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC82624D1C86BC9B001A230D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8262511C86BC9B001A230D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8262521C86BC9B001A230D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC82626B1C86BC9B001A230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC82626C1C86BC9B001A230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC82626E1C86BC9B001A230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLGoodsAutoDiscountSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoggenw.YLGoodsAutoDiscountSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC82626F1C86BC9B001A230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLGoodsAutoDiscountSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoggenw.YLGoodsAutoDiscountSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC8262711C86BC9B001A230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLGoodsAutoDiscountSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoggenw.YLGoodsAutoDiscountSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLGoodsAutoDiscountSystem.app/YLGoodsAutoDiscountSystem";
+			};
+			name = Debug;
+		};
+		BC8262721C86BC9B001A230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLGoodsAutoDiscountSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoggenw.YLGoodsAutoDiscountSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLGoodsAutoDiscountSystem.app/YLGoodsAutoDiscountSystem";
+			};
+			name = Release;
+		};
+		BC8262741C86BC9B001A230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLGoodsAutoDiscountSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoggenw.YLGoodsAutoDiscountSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLGoodsAutoDiscountSystem;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC8262751C86BC9B001A230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLGoodsAutoDiscountSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoggenw.YLGoodsAutoDiscountSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLGoodsAutoDiscountSystem;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC82623B1C86BC9B001A230D /* Build configuration list for PBXProject "YLGoodsAutoDiscountSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82626B1C86BC9B001A230D /* Debug */,
+				BC82626C1C86BC9B001A230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC82626D1C86BC9B001A230D /* Build configuration list for PBXNativeTarget "YLGoodsAutoDiscountSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82626E1C86BC9B001A230D /* Debug */,
+				BC82626F1C86BC9B001A230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC8262701C86BC9B001A230D /* Build configuration list for PBXNativeTarget "YLGoodsAutoDiscountSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8262711C86BC9B001A230D /* Debug */,
+				BC8262721C86BC9B001A230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC8262731C86BC9B001A230D /* Build configuration list for PBXNativeTarget "YLGoodsAutoDiscountSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8262741C86BC9B001A230D /* Debug */,
+				BC8262751C86BC9B001A230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8262381C86BC9B001A230D /* Project object */;
+}
